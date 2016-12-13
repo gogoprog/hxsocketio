@@ -1,4 +1,4 @@
 -cp ./
 -cp ../src/
--main Server
+-main ServerTest
 -js server.js
