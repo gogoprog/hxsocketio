@@ -1,0 +1,16 @@
+{
+  "name": "hxsocketio-test-server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socketio": "^1.0.0"
+  },
+  "engines": {
+    "node": "7.2.0"
+  },
+  "keywords": [],
+  "author": "gogoprog",
+  "license": "MIT"
+}
