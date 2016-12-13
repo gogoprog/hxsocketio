@@ -2,7 +2,11 @@ package js.node.socketio;
 
 extern class Socket
 {
+    public function emit(name:String, ?data:Dynamic):Void;
 
+    @:overload(function (event:String, ?func:Void->Void):Void{})
+    @:overload(function (event:String, ?func:Dynamic->Dynamic->Void):Void{})
+    public function on(event:String, ?func:Dynamic->Void):Void;
 }
 
 @:native("require('socket.io')")

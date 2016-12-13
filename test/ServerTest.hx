@@ -1,4 +1,5 @@
 import js.node.socketio.*;
+import js.node.socketio.Server;
 
 class ServerTest
 {
@@ -10,9 +11,13 @@ class ServerTest
 
         server.on(
             'connection',
-            function(socket)
+            function(socket:Socket)
             {
-                trace("Client connected!");
+                trace("A client is connected.");
+                socket.emit('news', { hello: 'world' });
+                socket.on('my other event', function (data) {
+                    trace(data);
+                });
             }
         );
     }
