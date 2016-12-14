@@ -1,5 +1,4 @@
 import js.node.socketio.*;
-import js.node.socketio.Client;
 
 class ClientTest
 {
