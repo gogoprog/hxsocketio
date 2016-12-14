@@ -9,6 +9,8 @@ class ServerTest
 
         server.listen(8000);
 
+        trace("Server is listening on port 8000");
+
         server.on(
             'connection',
             function(socket:Socket)
