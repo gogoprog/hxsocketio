@@ -1,2 +1,4 @@
 /test/node_modules
 /test/server.js
+/test/client.js
+*.log

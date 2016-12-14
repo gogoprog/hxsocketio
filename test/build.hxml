@@ -2,3 +2,10 @@
 -cp ../src/
 -main ServerTest
 -js server.js
+
+--next
+
+-cp ./
+-cp ../src/
+-main ClientTest
+-js client.js
