@@ -1,9 +1,13 @@
 # hxsocketio
 
 Haxe externs for [socket.io](socket.io).
-Support for Haxe JavaScript target.
 
 ## Basic usage
+
+### Requirements
+
+  * Only Haxe JavaScript target supported
+  * Socket.io npm modules
 
 ### Server
 
