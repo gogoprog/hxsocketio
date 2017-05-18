@@ -8,5 +8,5 @@ extern class Client extends Socket
 }
 
 typedef ClientOptions = {
-	?query:String
+    ?query:String
 }
