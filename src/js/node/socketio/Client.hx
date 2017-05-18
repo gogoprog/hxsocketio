@@ -4,5 +4,9 @@ package js.node.socketio;
 extern class Client extends Socket
 {
     @:selfCall
-    public function new(?server:String);
+    public function new(?server:String, ?options:ClientOptions);
+}
+
+typedef ClientOptions = {
+    ?query:String
 }
